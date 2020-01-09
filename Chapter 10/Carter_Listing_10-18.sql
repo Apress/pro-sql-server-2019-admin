@@ -1,0 +1,1 @@
+GRANT SELECT ON dbo.SensitiveData ([SensitiveText]) TO ContainedUser ;

@@ -1,0 +1,1 @@
+Sudo chmod -R 777 /var/opt/mssql/data

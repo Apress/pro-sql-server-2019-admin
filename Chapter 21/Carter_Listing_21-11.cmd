@@ -1,0 +1,1 @@
+readtrace.exe -I"C:\MSSQL\DReplay_0_130737313343740000.xel" -O"C:\MSSQL\DReplayTraceFile" -a -MS

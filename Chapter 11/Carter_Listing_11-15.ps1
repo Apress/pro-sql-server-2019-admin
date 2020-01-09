@@ -1,0 +1,1 @@
+Add-HgsAttestationHostKey -Name WIN-2RDHRBC9VK8 -Path c:\keys\WIN-2RDHRBC9VK8key.cer

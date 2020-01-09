@@ -1,0 +1,1 @@
+forfiles -p "C:\Program Files\Microsoft SQL Server\MSSQL12.MASTERSERVER\MSSQL\Backup" -s -m *.bak /D -30 /C "cmd /c del @path"

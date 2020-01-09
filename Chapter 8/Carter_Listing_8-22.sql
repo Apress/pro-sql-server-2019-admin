@@ -1,0 +1,19 @@
+--Turn on Auto_Create_Stats
+
+ALTER DATABASE Chapter8 SET AUTO_CREATE_STATISTICS ON ;
+GO
+
+--Turn on Auto_Create_Incremental_Stats
+
+ALTER DATABASE Chapter8 SET AUTO_CREATE_STATISTICS ON  (INCREMENTAL=ON) ;
+GO
+
+--Turn on Auto_Update_Stats_Async
+
+ALTER DATABASE Chapter8 SET AUTO_UPDATE_STATISTICS ON WITH NO_WAIT ;
+GO
+
+--Turn on Auto_Update_Stats_Async
+
+ALTER DATABASE Chapter8 SET AUTO_UPDATE_STATISTICS_ASYNC ON WITH NO_WAIT ;
+GO

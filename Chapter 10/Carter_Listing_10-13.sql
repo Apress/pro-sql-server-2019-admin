@@ -1,0 +1,5 @@
+USE Chapter10
+GO
+
+CREATE USER ContainedUser WITH PASSWORD=N'Pa$$w0rd', DEFAULT_SCHEMA=dbo ;
+GO

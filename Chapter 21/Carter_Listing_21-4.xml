@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Options>
+    <ReplayOptions>
+        <Server>Target</Server>
+        <SequencingMode>synchronization</SequencingMode>
+        <HealthmonInterval>60</HealthmonInterval>
+        <QueryTimeout>3600</QueryTimeout>
+        <ThreadsPerClient>255</ThreadsPerClient>
+        <EnableConnectionPooling>No</EnableConnectionPooling>
+     </ReplayOptions>
+    <OutputOptions>
+        <ResultTrace>
+            <RecordRowCount>Yes</RecordRowCount>
+            <RecordResultSet>No</RecordResultSet>
+        </ResultTrace>
+    </OutputOptions>
+</Options>

@@ -1,0 +1,1 @@
+DROP INDEX CI_CIDemo ON dbo.CIDemo ;

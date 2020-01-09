@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Options>
+    <PreprocessModifiers>
+        <IncSystemSession>No</IncSystemSession>
+        <MaxIdleTime>-1</MaxIdleTime>
+    </PreprocessModifiers>
+</Options>

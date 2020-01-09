@@ -1,0 +1,1 @@
+.\setup.exe /CONFIGURATIONFILE="c:\SQL2019\Configuration1.ini"

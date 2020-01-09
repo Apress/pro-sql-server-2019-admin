@@ -1,0 +1,7 @@
+CREATE DATABASE Chapter11MasterKeyExample ;
+GO
+
+USE Chapter11MasterKeyExample
+GO
+
+CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'Pa$$w0rd'

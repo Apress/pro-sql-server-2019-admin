@@ -1,0 +1,1 @@
+Invoke-Sqlcmd –serverinstance "localhost\PROSQLADMINCORE2" -query "SELECT @@SERVERNAME"

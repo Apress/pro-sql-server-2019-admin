@@ -1,0 +1,1 @@
+bcp chapter19.dbo.customers out c:\mssql\dump.dat -S .\PROSQLADMIN -T -c

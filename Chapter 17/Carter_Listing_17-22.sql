@@ -1,0 +1,1 @@
+EXEC dbo.DynamicSnapshot 'Chapter17', 2 ;

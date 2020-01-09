@@ -1,0 +1,4 @@
+CREATE DATABASE Chapter16_ss_0630
+ON PRIMARY 
+( NAME = N'Chapter16', FILENAME = N'F:\MSSQL\DATA\Chapter16_ss_0630.ss' )
+AS SNAPSHOT OF Chapter16 ;

@@ -1,0 +1,1 @@
+Get-Service -displayname *PROSQLADMINCORE2* | Select-Object name, displayname, status

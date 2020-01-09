@@ -1,0 +1,1 @@
+dreplay replay -m controller -d "c:\Distributed Replay\WorkingDir" -s Target -o -w Client1,Client2 -c "C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\DReplay.Exe.Replay.config"

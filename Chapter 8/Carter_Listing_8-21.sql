@@ -1,0 +1,1 @@
+ALTER INDEX NCI_Part_CustID ON dbo.OrdersDisc REBUILD PARTITION = 1 ;

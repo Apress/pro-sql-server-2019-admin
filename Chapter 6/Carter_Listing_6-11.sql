@@ -1,0 +1,4 @@
+USE [Chapter6]
+GO
+
+DBCC SHRINKFILE (N'Chapter6_File4' , 0, TRUNCATEONLY);

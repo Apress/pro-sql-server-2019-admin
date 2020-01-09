@@ -1,0 +1,4 @@
+ALTER SERVER AUDIT [Audit-ProSQLAdmin] WITH (STATE = ON) ;
+
+ALTER SERVER AUDIT SPECIFICATION [ServerAuditSpecification-ProSQLAdmin]
+WITH (STATE = ON) ;

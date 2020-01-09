@@ -1,0 +1,1 @@
+./SQLAutoInstall.ps1 -InstanceName 'PROSQLADMIN1' -SQLServiceAccount 'MyDomain\SQLServiceAccount1' -SQLServiceAccountPassword 'Pa$$w0rd' -AgentServiceAccount 'MyDomain\SQLServiceAccount1' -AgentServiceAccountPassword 'Pa$$w0rd'

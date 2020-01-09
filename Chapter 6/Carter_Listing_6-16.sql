@@ -1,0 +1,5 @@
+USE [Chapter6]
+GO
+
+DBCC SHRINKFILE (N'Chapter6_log' , 0, TRUNCATEONLY);
+GO

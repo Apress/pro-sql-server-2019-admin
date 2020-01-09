@@ -1,0 +1,1 @@
+dreplay preprocess -m controller  -i "C:\MSSQL\DReplayTraceFile\SPID00000.trc" -d "c:\Distributed Replay\WorkingDir" -c "C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\DReplay.exe.preprocess.config"

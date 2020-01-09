@@ -1,0 +1,5 @@
+USE Chapter10
+GO
+
+ALTER TABLE dbo.CreditCards
+ALTER COLUMN CardNumber ADD MASKED WITH (FUNCTION = 'partial(0,"XXXX-XXXX-XXXX-",4)');

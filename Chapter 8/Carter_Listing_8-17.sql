@@ -1,0 +1,1 @@
+ALTER INDEX NCI_CustomerID ON dbo.OrdersDisc PAUSE

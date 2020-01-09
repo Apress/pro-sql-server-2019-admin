@@ -1,0 +1,5 @@
+USE Master
+GO
+
+RESTORE DATABASE Chapter16
+         FROM DATABASE_SNAPSHOT = 'Chapter16_ss_0630' ;

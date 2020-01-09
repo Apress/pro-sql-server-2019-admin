@@ -1,0 +1,1 @@
+.\setup.exe /ACTION=repair /INSTANCENAME=PROSQLADMIN /q

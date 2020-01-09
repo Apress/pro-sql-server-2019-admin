@@ -1,0 +1,4 @@
+USE Chapter9
+GO
+
+DBCC CHECKDB ;

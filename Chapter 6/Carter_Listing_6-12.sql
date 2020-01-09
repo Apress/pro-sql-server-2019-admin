@@ -1,0 +1,4 @@
+USE [Chapter6]
+GO
+
+DBCC SHRINKDATABASE(N'Chapter6' );

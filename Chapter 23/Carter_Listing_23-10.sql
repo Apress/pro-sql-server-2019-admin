@@ -1,0 +1,1 @@
+ExecuteWql('String', 'root\CIMV2', 'SELECT State FROM Win32_Service  WHERE Name ="SQLSERVERAGENT$MASTERSERVER"')

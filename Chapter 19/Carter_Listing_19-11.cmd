@@ -1,0 +1,1 @@
+xperf -merge c:\mssql\wmisession.etl C:\MSSQL\StatementsWithPerfCounters.etl

@@ -1,0 +1,7 @@
+BEGIN TRANSACTION
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE
+        SELECT *
+        FROM dbo.Customers C
+        INNER JOIN dbo.CustomersMem CM (SNAPSHOT)
+                ON C.CustomerID = CM.CustomerID ;
+COMMIT TRANSACTION

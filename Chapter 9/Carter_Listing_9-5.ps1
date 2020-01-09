@@ -1,0 +1,1 @@
+.\setup.exe /ACTION=rebuilddatabase /INSTANCENAME=PROSQLADMIN /SQLSYSADMINACCOUNTS=SQLAdministrator

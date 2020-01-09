@@ -1,0 +1,8 @@
+CREATE PROCEDURE UpdateOrdersMem
+        WITH NATIVE_COMPILATION, SCHEMABINDING, EXECUTE AS OWNER
+AS
+BEGIN ATOMIC WITH (TRANSACTION ISOLATION LEVEL = SNAPSHOT, LANGUAGE = 'English')
+        UPDATE dbo.OrdersMem
+                SET DeliveryDate = DATEADD(dd,1,DeliveryDate)
+        WHERE DeliveryDate < GETDATE()
+END ;

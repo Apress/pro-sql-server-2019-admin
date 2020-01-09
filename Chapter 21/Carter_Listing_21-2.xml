@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Options>
+  <Controller>controller</Controller>
+  <WorkingDirectory>C:\DistributedReplay\WorkingDir\</WorkingDirectory>
+  <ResultDirectory>C:\DistributedReplay\ResultDir\</ResultDirectory>
+  <LoggingLevel>CRITICAL</LoggingLevel>
+</Options>
